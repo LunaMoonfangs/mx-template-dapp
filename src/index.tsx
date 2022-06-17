@@ -3,6 +3,7 @@ import './assets/sass/theme.scss';
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
+// import '@elrondnetwork/dapp-core/dist/index.css';
 
 const container = document.getElementById('root');
 const root = createRoot(container!);

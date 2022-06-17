@@ -6,7 +6,7 @@
   "license": "GPL-3.0-or-later",
   "repository": "@elrondnetwork/dapp-template",
   "dependencies": {
-    "@elrondnetwork/dapp-core": "1.2.7",
+    "@elrondnetwork/dapp-core": "2.0.0-alpha.2",
     "@elrondnetwork/erdjs": "10.2.5",
     "@elrondnetwork/erdjs-network-providers": "0.1.5",
     "@fortawesome/fontawesome-svg-core": "6.1.0",
@@ -68,7 +68,7 @@
     "@typescript-eslint/parser": "4.22.1",
     "eslint-config-prettier": "8.3.0",
     "eslint-config-react": "1.1.7",
-    "eslint-config-react-app": "6.0.0",
+    "eslint-config-react-app": "7.0.1",
     "eslint-config-standard": "16.0.2",
     "eslint-import-resolver-alias": "1.1.2",
     "eslint-import-resolver-typescript": "2.4.0",
