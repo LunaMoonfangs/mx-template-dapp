@@ -9,7 +9,8 @@ import { refreshAccount } from '@elrondnetwork/dapp-core/utils';
 import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
 import { getTransactions } from 'apiRequests';
 import { contractAddress } from 'config';
-import TransactionsList from './TransactionsList';
+import { ExtendedTransactionsList } from './ExtendedTransactionsList';
+// import TransactionsList from './TransactionsList';
 import { StateType } from './types';
 
 const Transactions = () => {
@@ -45,7 +46,7 @@ const Transactions = () => {
   const { transactions } = state;
 
   return transactions?.length > 0 ? (
-    <TransactionsList transactions={transactions} />
+    <ExtendedTransactionsList transactions={transactions} />
   ) : (
     <div className='my-5'>
       <PageState
