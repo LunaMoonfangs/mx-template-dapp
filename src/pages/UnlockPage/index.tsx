@@ -27,7 +27,6 @@ export const UnlockRoute: () => JSX.Element = () => {
             <LedgerLoginButton
               loginButtonText={'Ledger'}
               callbackRoute={routeNames.dashboard}
-              className={'test-class_name'}
             />
             <WalletConnectLoginButton
               callbackRoute={routeNames.dashboard}
